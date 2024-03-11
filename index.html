@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/styles.css" />
+		<title>Chat Interface</title>
+		<script
+			defer
+			src="http://localhost:8000/socket.io/socket.io.js"
+		></script>
+		<script defer src="js/client.js"></script>
+	</head>
+	<body>
+		<div id="chat-container">
+			<div id="message-container">
+				<div class="message right">
+					Hello, alpha bravo charlie delta tango foxtrot
+				</div>
+				<div class="message left">
+					Solid copy! Message is Lima Charlie, wilco whiskey yankie,
+					zullu victor romeo
+				</div>
+			</div>
+			<div id="input-container">
+				<input
+					type="text"
+					id="message-input"
+					placeholder="Type your message..."
+				/>
+				<button id="send-button">Send</button>
+			</div>
+		</div>
+	</body>
+</html>
