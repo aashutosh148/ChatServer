@@ -26,11 +26,11 @@ body {
 	padding: 10px;
 }
 #message-container::-webkit-scrollbar {
-	width: 0.5px; /* Adjust the width as needed */
+	width: 0.5px; 
 }
 
 #message-container::-webkit-scrollbar-thumb {
-	background-color: transparent; /* Make the thumb transparent */
+	background-color: transparent; 
 }
 .message {
 	max-width: 66.666%;
